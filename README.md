@@ -19,6 +19,7 @@
    - `pcl`
 
 > 工程根目录已提供 `vcpkg.json`（manifest 模式），并且 `.vcxproj` 已开启 `VcpkgEnableManifest=true`。
+> 如果你升级了本机 vcpkg 并出现 baseline 相关报错，可在项目目录运行 `vcpkg x-update-baseline` 更新 `builtin-baseline`。
 
 ## 2) 安装依赖（一次性）
 
