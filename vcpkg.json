@@ -1,0 +1,12 @@
+{
+  "name": "point-cloud-viewer-tool",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "pcl",
+    {
+      "name": "vtk",
+      "features": ["qt"]
+    },
+    "qtbase"
+  ]
+}
